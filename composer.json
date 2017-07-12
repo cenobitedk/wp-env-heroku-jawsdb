@@ -3,11 +3,11 @@
   "license": "MIT",
   "type": "library",
   "description": "Export Heroku jawsdb addon configuration for WordPress.",
-  "keywords": ["Heroku", "WordPress", "JawsDB", "MySQL"],
+  "keywords": ["Heroku", "WordPress", "JawsDB", "MySQL", "MariDB"],
   "authors": [
     {
       "name": "Jussi Kinnula",
-      "email": "jussi.kinnula@frantic.com"
+      "email": "jussi.kinnula@gmail.com"
     }
   ],
   "require": {
