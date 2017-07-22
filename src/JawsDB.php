@@ -10,7 +10,9 @@ if ( $env ) {
         putenv(sprintf('DB_PORT=%s', $url['port']));
     }
     putenv(sprintf('DB_USER=%s', $url['user']));
-    putenv(sprintf('DB_PASSWORD=%s', $url['pass']));
+    if ( array_key_exists('pass', $url) ) {
+        putenv(sprintf('DB_PASSWORD=%s', $url['pass']));
+    }
     putenv(sprintf('DB_NAME=%s', ltrim($url['path'], '/')));
 } else {
     if (!getenv('DB_HOST')) {
