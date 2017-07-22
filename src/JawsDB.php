@@ -2,7 +2,7 @@
 
 namespace Frc\WP\Env\Heroku\JawsDB;
 
-$env = getenv('JAWSDB_URL');
+$env = getenv('JAWSDB_URL') ? getenv('JAWSDB_URL') : getenv('JAWSDB_MARIA_URL');
 if ( $env ) {
     $url = parse_url($env);
     putenv(sprintf('DB_HOST=%s', $url['host']));
