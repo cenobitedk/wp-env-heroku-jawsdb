@@ -1,10 +1,14 @@
 {
-  "name": "frc/wp-env-heroku-jawsdb",
+  "name": "cenobitedk/wp-env-heroku-jawsdb",
   "license": "MIT",
   "type": "library",
   "description": "Export Heroku jawsdb addon configuration for WordPress.",
   "keywords": ["Heroku", "WordPress", "JawsDB", "MySQL", "MariDB"],
   "authors": [
+    {
+      "name": "Jeppe Hasseriis",
+      "email": "j.hasseriis@gmail.com"
+    },
     {
       "name": "Jussi Kinnula",
       "email": "jussi.kinnula@gmail.com"
