@@ -1,5 +1,6 @@
 {
   "name": "cenobitedk/wp-env-heroku-jawsdb",
+  "version": "1.1.0",
   "license": "MIT",
   "type": "library",
   "description": "Export Heroku jawsdb addon configuration for WordPress.",
